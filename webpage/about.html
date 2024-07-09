@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 20px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav .left {
+            font-weight: 700;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(142, 142, 216);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .col-lg-4 {
+            text-align: center;
+            flex-basis: 30%;
+            margin: 10px;
+        }
+
+        .bd-placeholder-img {
+            background-color: var(--bs-secondary-color);
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+        }
+
+        h2 {
+            font-weight: 700;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(142, 142, 216);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: rgb(142, 142, 216);
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            padding: 5px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        .footer li {
+            margin-bottom: 10px;
+        }
+
+        .footerthird {
+            margin-right: 10px;
+        }
+
+        .footersecond ul li a {
+            list-style: none;
+            text-decoration: none;
+            color: white;
+        }
+
+        .footersecond a:hover {
+            color: rgb(142, 142, 216);
+        }
+
+        .footerthird i:hover {
+            color: rgb(142, 142, 216);
+        }
+
+        .footerthird ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footerthird li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .footerthird i {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .footerthird li:hover {
+            color: rgb(142, 142, 216);
+        }
+
+        .footerthird i:hover {
+            color: rgb(142, 142, 216);
+        }
+
+        .footerthird ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footerthird ul li a:hover {
+            color: rgb(142, 142, 216);
+        }
+
+        .para {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Evita Barboza's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.php">Contact Me</a></li>
+                    <li><a href="signup.php">Login/SignUp</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/img3.png"
+                    alt="Opportunites">
+                <h2 class="fw-normal">Opportunites</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, libero officia.
+                    Eligendi natus
+                    accusamus assumenda Lorem ipsum dolor sit amet.</p> <br>
+                <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/5.3/examples/carousel/#">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/img1.jpg" 
+                alt="Talents">
+                <h2 class="fw-normal">Talents</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolores nisi aspernatur
+                    ipsam explicabo
+                    fugiat Lorem ipsum dolor sit amet.</p> <br>
+                <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/5.3/examples/carousel/#">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/img2.png"
+                    alt="Something NEW!">
+
+                <h2 class="fw-normal">Something NEW!</h2>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit mollitia impedit
+                    consectetur quidem
+                    quia iste obcaecati animi doloremque praesentium fugiat?.</p> <br>
+                <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/5.3/examples/carousel/#">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </main>
+    <br><br><br>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Evita's Developer Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/feed/">LinkedIn</a> </li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/evitabarboza">Github</a></li>
+                    <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/?lang=en">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy; www.sharonportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>

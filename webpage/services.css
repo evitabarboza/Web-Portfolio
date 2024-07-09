@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav .left {
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(142, 142, 216);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection{
+   font-size: 2rem;
+    /* margin: 70px 0; */
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.purple{
+    color:rgb(181, 113, 245)
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color:rgb(115, 54, 171)
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1 ; 
+    height: 1px; 
+    height: 1.2px; 
+    margin: 50px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 72vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection .vertical {
+    background-color: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 147px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #0e0e1a;
+    padding: 5px;
+    /* height: 233px; */
+}
+
+.footer {
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.footer ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer li {
+    margin-bottom: 10px; 
+}
+
+.footerthird {
+    margin-right: 10px;
+}
+
+.footersecond ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footersecond a:hover {
+    color: rgb(142, 142, 216);
+    
+}
+
+.footerthird i:hover {
+    color: rgb(142, 142, 216);
+}
+
+.footerthird ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerthird li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+    display: flex; 
+    align-items: center;
+}
+
+.footerthird i {
+    margin-right: 10px; 
+    font-size: 1.2em;
+}
+
+.footerthird li:hover {
+    color: rgb(142, 142, 216); 
+}
+
+.footerthird i:hover {
+    color: rgb(142, 142, 216); 
+}
+
+.footerthird ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.footerthird ul li a:hover {
+    color: rgb(142, 142, 216); 
+}
+
+.card {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    text-align: justify;
+}
+
+.card h1 {
+    font-size: 1.9rem;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card-button {
+    background-color: rgb(181, 113, 245);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: rgb(142, 142, 216);
+}

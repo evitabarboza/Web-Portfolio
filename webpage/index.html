@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Evita Barboza's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.php">Contact Me</a></li>
+                    <li><a href="signup.php">Login/SignUp</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, I am <span class="purple">Evita Barboza</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images/bg.png" alt="">
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far?</span>
+            <h1>Everything About Me</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="images/html.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa eum
+                        laudantium
+                        nemo inventore enim voluptatum exercitationem earum facilis cupiditate explicabo!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/node.js.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Node.js Developer (2013-2016)
+                    </div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa eum
+                        laudantium
+                        nemo inventore enim voluptatum exercitationem earum facilis cupiditate explicabo!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/bootstrap.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Bootstrap Developer (2017-2020)
+                    </div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa eum
+                        laudantium
+                        nemo inventore enim voluptatum exercitationem earum facilis cupiditate explicabo!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/fullstack.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        FullStack Developer (2021-2024)
+                    </div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa eum
+                        laudantium nemo inventore enim voluptatum Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.!</div>
+                </div>
+
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Evita's Developer Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/feed/">LinkedIn</a> </li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/evitabarboza">Github</a></li>
+                    <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/?lang=en">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy; www.sharonportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+
+    <!-- Animation for the Span  -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Content</i> Writer', '<i>Calligrapher</i>', '<i>Web</i> Developer', '<i>UI/UX</i> Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
