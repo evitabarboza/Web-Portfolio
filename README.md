@@ -89,7 +89,7 @@ portfolio/
 └── README.md             # This file
 ```
 
-## Contributing
+## Contribution
 
 If you have any suggestions or improvements, feel free to submit a pull request or open an issue on the GitHub repository.
 
@@ -99,4 +99,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact me at evitabarboza195@gmail.com.
+For any inquiries, please contact me at evitabarboza195@gmail.com
