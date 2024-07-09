@@ -50,6 +50,7 @@ This is a simple portfolio website of Evita Barboza, showcasing her skills, serv
 
 5. **Configure Database Connection:**
    - Open `contact.php` and ensure the database credentials match your setup:
+     
      ```php
      $host = 'localhost';
      $user = 'root';
