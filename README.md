@@ -99,4 +99,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact me at evitabarboza195a@gmail.com.
+For any inquiries, please contact me at evitabarboza195@gmail.com.
