@@ -1,7 +1,6 @@
 # Evita's Developer Portfolio
-This is a simple portfolio website which showcases skills, services and contact information. Built with HTML, CSS, PHP, and MySQL, it features a responsive design, a contact form with database integration, and links to social media profiles.
+This is a simple portfolio website which showcases skills, services and contact information. Built with HTML, CSS and PHP it features a responsive design, a contact form with database integration, and links to social media profiles.
 
----
 
 ## Overview
 
@@ -20,7 +19,6 @@ This is a simple portfolio website of Evita Barboza, showcasing her skills, serv
 - **HTML:** For the structure of the web pages.
 - **CSS:** For styling and layout.
 - **PHP:** For server-side scripting and database interaction.
-- **MySQL:** For storing contact form data.
 - **JavaScript:** For form validation and interactive elements.
 - **Font Awesome:** For social media icons.
 
